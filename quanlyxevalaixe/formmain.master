@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="formmain.master.cs" Inherits="formmain" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            color: #3366FF;
+        }
+        .auto-style3 {
+            text-align: center;
+            
+        }
+        .auto-style4 {
+            text-align: center;
+            
+        }
+        .auto-style5 {
+           
+        }
+            .auto-style6 {
+                height: 24px;
+            }
+            .auto-style7 {
+            }
+            .auto-style8 {
+                height: 24px;
+            }
+            .auto-style10 {
+                height: 24px;
+                width: 427px;
+            }
+            .auto-style11 {
+                text-align: left;
+            }
+            .auto-style12 {
+                text-align: left;
+            }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+ <table style="width:100%;">
+                <tr>
+                    <td class="auto-style1">
+    <div>
+    </div>
+                        <strong><span class="auto-style2">PHẦN MỀM QUẢN LÝ HỆ THỐNG XE VÀ LÁI XE</span></strong></td>
+                </tr>
+                <tr>
+                    <td class="auto-style3">
+                        <asp:Button ID="Button1" runat="server" Text="QL THÔNG TIN" CssClass="auto-style5" OnClick="Button1_Click" Width="129px" />
+                        <asp:Button ID="Button2" runat="server" Text="LẬP HĐ" CssClass="auto-style5" OnClick="Button2_Click" Width="130px" />
+                        <asp:Button ID="Button3" runat="server" Text="THANH TOÁN HĐ" CssClass="auto-style5" Width="130px" />
+                        <asp:Button ID="Button4" runat="server" Text="TÌM KIẾM" CssClass="auto-style5" Width="130px" />
+                        <asp:Button ID="Button5" runat="server" Height="26px" Text="ĐĂNG KÝ TK" Width="130px" CssClass="auto-style5" />
+                        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="EXIT" CssClass="auto-style5" Width="131px" />
+                        <asp:Button ID="Button7" runat="server" Text="ABOUT" CssClass="auto-style5" Width="131px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <table style="width:100%;">
+                <tr>
+                    <td class="auto-style7">Mã Hợp Đồng:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    </td>
+                    <td class="auto-style11">Mã Khách Hàng:&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                        <asp:Button ID="Button8" runat="server" Text="Xem Hợp Đồng" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7" colspan="3">
+                        <asp:GridView ID="GridView1" runat="server">
+                        </asp:GridView>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7" colspan="3">Ghi Chú:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:TextBox ID="TextBox3" runat="server" Width="437px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8" colspan="3">
+                        <asp:GridView ID="GridView2" runat="server">
+                        </asp:GridView>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style7" rowspan="2">
+                        <asp:Button ID="Button9" runat="server" Font-Bold="True" Height="56px" Text="IN" Width="113px" />
+                    </td>
+                    <td class="auto-style12" colspan="2">Nhân Viên Thanh Toán:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style11" colspan="2">Xác Nhận Nhân Viên&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:CheckBox ID="CheckBox1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+    </form>
+ </body>
+</html>
