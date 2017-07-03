@@ -28,7 +28,7 @@
         <table style="width:100%;">
         <tr>
             <td class="auto-style6">
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Tìm kiếm xe" Width="165px" />
+                <asp:Button ID="Button1" runat="server" Text="Tìm kiếm xe" Width="165px" />
                 <asp:Button ID="Button2" runat="server" Text="Tìm kiếm lái xe" Width="165px"/>
                 <asp:Button ID="Button3" runat="server" Text="Tìm kiếm nhân viên" Width="165px"/>
                 <asp:Button ID="Button4" runat="server" Text="Tìm kiếm khách hàng" Width="165px"/>
@@ -44,7 +44,7 @@
                     <tr>
                         <td class="auto-style9">&nbsp;</td>
                         <td class="auto-style10">
-                            <asp:RadioButton ID="RadioButton4" runat="server" OnCheckedChanged="RadioButton4_CheckedChanged" Text="Tìm kiếm theo mã HĐ" />
+                            <asp:RadioButton ID="RadioButton4" runat="server"  Text="Tìm kiếm theo mã HĐ" />
                         </td>
                         <td class="auto-style13">
                             <asp:RadioButton ID="RadioButton1" runat="server" Text="Tìm kiếm theo tên HĐ" />

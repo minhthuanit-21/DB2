@@ -70,7 +70,7 @@
                         </td>
                         <td class="auto-style8">Địa chỉ:</td>
                         <td>
-                            <asp:TextBox ID="TextBox11" runat="server" OnTextChanged="TextBox11_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="TextBox11" runat="server" ></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -80,7 +80,7 @@
                         </td>
                         <td class="auto-style13">CMND:</td>
                         <td class="auto-style14">
-                            <asp:TextBox ID="TextBox12" runat="server" OnTextChanged="TextBox11_TextChanged" Width="118px"></asp:TextBox>
+                            <asp:TextBox ID="TextBox12" runat="server"  Width="118px"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -90,7 +90,7 @@
                         </td>
                         <td class="auto-style8">Điện thoại:</td>
                         <td>
-                            <asp:TextBox ID="TextBox13" runat="server" OnTextChanged="TextBox11_TextChanged"></asp:TextBox>
+                            <asp:TextBox ID="TextBox13" runat="server" ></asp:TextBox>
                         </td>
                     </tr>
                     <tr>

@@ -89,7 +89,7 @@
                             <asp:TextBox ID="TextBox5" runat="server" Width="163px"></asp:TextBox>
                         </td>
                         <td class="auto-style1">
-                            <asp:Button ID="Button9" runat="server" Font-Bold="True" OnClick="Button9_Click" Text="Thêm" Width="77px" />
+                            <asp:Button ID="Button9" runat="server" Font-Bold="True"  Text="Thêm" Width="77px" />
                         </td>
                     </tr>
                     <tr>

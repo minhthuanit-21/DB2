@@ -56,12 +56,12 @@
                 </tr>
                 <tr>
                     <td class="auto-style3">
-                        <asp:Button ID="Button1" runat="server" Text="QL THÔNG TIN" CssClass="auto-style5" OnClick="Button1_Click" Width="129px" />
-                        <asp:Button ID="Button2" runat="server" Text="LẬP HĐ" CssClass="auto-style5" OnClick="Button2_Click" Width="130px" />
+                        <asp:Button ID="Button1" runat="server" Text="QL THÔNG TIN" CssClass="auto-style5"  Width="129px" />
+                        <asp:Button ID="Button2" runat="server" Text="LẬP HĐ" CssClass="auto-style5"  Width="130px" />
                         <asp:Button ID="Button3" runat="server" Text="THANH TOÁN HĐ" CssClass="auto-style5" Width="130px" />
                         <asp:Button ID="Button4" runat="server" Text="TÌM KIẾM" CssClass="auto-style5" Width="130px" />
                         <asp:Button ID="Button5" runat="server" Height="26px" Text="ĐĂNG KÝ TK" Width="130px" CssClass="auto-style5" />
-                        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="EXIT" CssClass="auto-style5" Width="131px" />
+                        <asp:Button ID="Button6" runat="server" Text="EXIT" CssClass="auto-style5" Width="131px" />
                         <asp:Button ID="Button7" runat="server" Text="ABOUT" CssClass="auto-style5" Width="131px" />
                     </td>
                 </tr>
